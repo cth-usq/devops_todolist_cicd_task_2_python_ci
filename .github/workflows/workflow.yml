@@ -6,3 +6,7 @@ on:
     branches: ["main", "develop"]
   pull_request:
     branches: ["main"]
+
+jobs:
+  python_ci:
+    runs-on: ubuntu-latest
